@@ -1,0 +1,20 @@
+{
+  "name": "lucene-to-regex",
+  "version": "1.0.0",
+  "description": "A module to parse lucene query string to regular expression",
+  "main": "index.js",
+  "scripts": {
+    "build": "cat lucene.grammar | node_modules/pegjs/bin/pegjs > ./query_parser.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lucene": "^1.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "pegjs": "^0.10.0"
+  }
+}
