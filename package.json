@@ -7,8 +7,8 @@
     "build": "cat lucene.grammar | node_modules/pegjs/bin/pegjs > ./query_parser.js",
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "NQKdev",
+  "license": "MIT",
   "dependencies": {
     "lucene": "^1.1.3"
   },
