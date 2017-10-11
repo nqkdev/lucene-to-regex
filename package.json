@@ -1,6 +1,6 @@
 {
   "name": "lucene-to-regex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A module to parse lucene query string to regular expressions",
   "main": "lib/lucene_to_regex.js",
   "files": [
