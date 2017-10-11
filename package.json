@@ -1,11 +1,18 @@
 {
   "name": "lucene-to-regex",
   "version": "1.0.0",
-  "description": "A module to parse lucene query string to regular expression",
-  "main": "index.js",
+  "description": "A module to parse lucene query string to regular expressions",
+  "main": "lib/lucene_to_regex.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "cat lucene.grammar | node_modules/pegjs/bin/pegjs > ./query_parser.js",
+    "build": "cat lucene.grammar | node_modules/pegjs/bin/pegjs > ./lib/query_parser.js",
     "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nqkdev/lucene-to-regex.git"
   },
   "author": "NQKdev",
   "license": "MIT",

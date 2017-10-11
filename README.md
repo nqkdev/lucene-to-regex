@@ -21,6 +21,7 @@ regex.test('Lucene and regex are difficult.')
 // result: false
 ```
 
+> You can set flag by passing an additional parameter to the method.
 
 
 ### Changes
