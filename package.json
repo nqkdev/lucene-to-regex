@@ -7,7 +7,6 @@
     "lib"
   ],
   "scripts": {
-    "build": "cat lib/lucene.grammar | node_modules/pegjs/bin/pegjs > lib/query_parser.js",
     "test": "mocha"
   },
   "repository": {
