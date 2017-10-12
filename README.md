@@ -27,7 +27,5 @@ regex.test('Lucene and regex are difficult.')
 > You can set flag by passing an additional parameter to the method.
 
 
-### Changes
-The parser grammar is modified to support these prefix (+, -, #, @). The reason was to make it easy to build regex for twitter hashtags and mentions.
 
-Check out [bripkens/lucene](https://github.com/bripkens/lucene) for lucene 
+> Check out [bripkens/lucene](https://github.com/bripkens/lucene) for lucene 
