@@ -1,5 +1,6 @@
 # Lucene to Regex for Javascript
 [![Build Status](https://travis-ci.org/nqkdev/lucene-to-regex.svg?branch=master)](https://travis-ci.org/nqkdev/lucene-to-regex)
+[![npm](https://img.shields.io/npm/v/lucene-to-regex.svg)]()
 
 This tiny project provides ability to convert a boolean query string to regular expressions.
 
